@@ -1,0 +1,12 @@
+lockfileVersion: 5.4
+
+importers:
+
+  one:
+    specifiers:
+      two: workspace:*
+    dependencies:
+      two: link:../two
+
+  two:
+    specifiers: {}
